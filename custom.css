@@ -352,11 +352,6 @@
     margin-bottom: 0.8rem;
 }
 
-.small.text-muted::before {
-    content: 'ðŸ“…';
-    margin-right: 0.5rem;
-}
-
 .btn-primary {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     border: none;
@@ -575,7 +570,7 @@
 }
 
 .list-unstyled li::before {
-    content: 'â–¸';
+    content: '';
     position: absolute;
     left: -0.5rem;
     color: var(--primary-color);
